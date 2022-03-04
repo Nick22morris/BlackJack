@@ -48,6 +48,7 @@ public class BlackJack {
                 } else {
                     dealerHand.clear();
                     playerHand.clear();
+                    deck = new Deck();
                     return true;
                 }
             } else {
@@ -73,6 +74,7 @@ public class BlackJack {
                         } else {
                             dealerHand.clear();
                             playerHand.clear();
+                            deck = new Deck();
                             return true;
                         }
                     }
